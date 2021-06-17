@@ -18,7 +18,8 @@ fio_dct = fio_parse('Смоляк Маргарита Генадьевна')
 
 # Features
 
-1.The database contains:
+1.Using the Sqlite database
+2.The database contains:
 
 * 365673 surnames
 
@@ -26,7 +27,6 @@ fio_dct = fio_parse('Смоляк Маргарита Генадьевна')
 
 * 46717 midnames
 
-2. Using the Sqlite database
 
 # References
 

@@ -46,7 +46,7 @@ def find_fio(value):
         fio_dict.update({'Surname': value})
 
 
-def parse_fio(fio):
+def fio_parse(fio):
     fio_lst = fio.split(' ')
     for i in fio_lst:
         find_fio(i)

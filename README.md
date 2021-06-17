@@ -8,11 +8,13 @@ git clone https://github.com/wb-08/SlavicNames.git
 # Usage
 
 
+```python
+
 from parse_fio import fio_parse
-
 fio_dct = fio_parse('Смоляк Маргарита Генадьевна')
+>> {'Surname': 'Смоляк', 'Name': 'Маргарита', 'Midname': 'Генадьевна'}
+```
 
-{'Surname': 'Смоляк', 'Name': 'Маргарита', 'Midname': 'Генадьевна'}
 
 # Features
 

@@ -10,9 +10,11 @@ git clone https://github.com/wb-08/SlavicNames.git
 
 ```python
 
-from parse_fio import fio_parse
-fio_dct = fio_parse('Смоляк Маргарита Генадьевна')
->> {'Surname': 'Смоляк', 'Name': 'Маргарита', 'Midname': 'Генадьевна'}
+from parse_fio import fio_parse, gender_parse
+fio_dct = fio_parse('Моргунова Александра Андреевна')
+>> {'Surname': 'Моргунова', 'Name': 'Александра', 'Midname': 'Андреевна'}
+gender_dct = gender_parse('Моргунова Александра Андреевна')
+>> {'fio': 'Моргунова Александра Андреевна', 'gender:': 'f'}
 ```
 
 

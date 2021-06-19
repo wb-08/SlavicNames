@@ -1,5 +1,5 @@
 # Slavic Names
-This code is necessary for parsing  Slavic names, surnames and midnames. Using the Sqlite database. 
+This code is necessary for parsing Slavic names, surnames , midnames and define gender. Using the Sqlite database. 
 
 # Installation
 
